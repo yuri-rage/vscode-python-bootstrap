@@ -8,7 +8,7 @@ Rather than disabling MSYS2 Python, one can install [Python for Windows](https:/
 
 The new project created by `bootstrap.ps1` will be in the directory one level up from where it was invoked, and the workspace `settings.json` file will use PowerShell as the default terminal for the project.
 
-## Usage:
+## Usage (in PowerShell):
     git clone https://github.com/yuri-rage/vscode-python-bootstrap.git
     cd vscode-python-bootstrap
     .\bootstrap <new project name>

@@ -1,0 +1,5 @@
+{
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+    "python.terminal.activateEnvInCurrentTerminal": true,
+    "python.terminal.activateEnvironment": true,
+}

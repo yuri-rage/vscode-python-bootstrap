@@ -8,11 +8,12 @@
  # * -- Yuri - Oct 2021
 #>
 
+Write-Output "`nVS Code Python Bootstrap Script -- Yuri - 2021`n"
+
 $project_name = "$args"
 
 if ("" -eq $project_name) {
-        Write-Output "Usage: $($MyInvocation.MyCommand.Name) <project name>"
-        Exit 1
+        $project_name = Read-Host "New project name"
 }
 
 $path = Join-Path (Resolve-Path ..) "$project_name"

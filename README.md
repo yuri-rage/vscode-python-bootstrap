@@ -13,6 +13,8 @@ The new project created by `bootstrap.ps1` will be in the directory one level up
     cd vscode-python-bootstrap
     .\bootstrap <new project name>
 
+You can also right-click on bootstrap.ps1 (or a shortcut to it), and select "Run with PowerShell."  If you have .ps1 files [associated with PowerShell](https://www.top-password.com/blog/set-ps1-script-to-open-with-powershell-by-default/), you can double-click on bootstrap.ps1 or a shortcut to it.  In either case, a prompt for a new project name will appear in the window that spawns.
+
 See also: _[My VS Code settings repository](https://github.com/yuri-rage/vscode-configuration)_
 
 ---

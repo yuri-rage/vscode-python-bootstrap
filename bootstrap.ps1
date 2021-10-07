@@ -54,6 +54,13 @@ if(Test-Path "$path\.git") {
         git init "$path"
 }
 
+if(Test-Path "$path\.gitignore") {
+        Write-Output ".gitignore exists, not overwriting."
+} else {
+        Write-Output "Copying .gitignore..."
+        Copy-Item ".\.gitignore" -Destination "$path"
+}
+
 Write-Output "Done.`n"
 
 Write-Host -NoNewLine "Press any key to open new project in VS Code (ESC to exit)..."
